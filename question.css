@@ -1,0 +1,15 @@
+@import url('https://fonts.cdnfonts.com/css/jomolhari-3');
+@import url('https://fonts.cdnfonts.com/css/agbalumo');
+@import url('https://fonts.cdnfonts.com/css/bagel-fat-one');
+*{
+    margin: 0px;
+}
+
+body{
+    background-image: url(Climbing\ roses\ wallpaper_.jpg);
+    background-color: pink;
+}
+
+h1{
+    font-family: 'Agbalumo';
+}

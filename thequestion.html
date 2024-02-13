@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>♡♡♡</title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="question.css">
+    <link href="https://fonts.cdnfonts.com/css/agbalumo" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/jomolhari-3" rel="stylesheet">
+                
+                
+    <body>
+        <center><div class="yeah">
+            <center><h1>Will you be valentines?</h1></center>
+            <div class="meow">
+                <button id="yesButton">Yes</button>
+                <button id="no">No</button>
+            </div>
+            <hr>
+
+            <center><h3>Top 10 reasons why dapat lng!!<br>
+                1. I'm Marianne Nicole D. Gajetela<br>
+                2. Wala pa kong valentines<br>
+                3. Wala ka pang valetines<br>
+                4. Sayang effort ko :((<br>
+                5. Worth it<br>
+                6. Bagay tayo (totoo)<br>
+                7. Cute ako, cute ka = cute tyong dalawa<br>
+                8. Masyado mo na ko love!!<br>
+                9. Malulungkot si remy<br>
+                10. I love you
+            </h3></center>
+        </div></center>
+        
+
+        <style>
+            .yeah{
+                border: 7px;
+                border-style: solid;
+                border-color: rgb(78, 17, 17);
+                margin-top: 40px;
+                width: 600px;
+                height: 600px;
+                background-color: rgb(255, 244, 215);
+                border-radius: 20px;
+            }
+
+            hr{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    width: 500px;
+    border-top: 3px solid rgb(78, 17, 17);
+}
+
+            h1
+            {
+                margin-top: 20px;
+                font-size: 50px;
+                font-family: 'Agbalumo';
+            }
+
+            h3{
+                font-size: 15px;
+                font-family: 'Jomolhari';
+                margin-top: 40px;
+                width: 500px;
+                text-align: justify;
+            }
+
+            .meow
+            {
+                margin-right: 10%;
+            }
+
+            button
+            {
+                margin-top: 20px;
+                margin-right: 20px;
+            }
+
+            div
+            {
+               vertical-align: middle;
+            }
+
+            #no
+            {
+                position: absolute;
+            }
+        </style>
+
+        <script>
+            document.getElementById("yesButton").addEventListener("click", function(){
+                alert("See you soon!!!!! <3");
+            });
+            var b = document.getElementById("no")
+            b.addEventListener("click", change);
+            function change() {
+                var i = Math.floor(Math.random()*1000)+1;
+                var j = Math.floor(Math.random()*700)+1;
+                b.style.left = i+"px";
+                b.style.top = j+"px";
+            }
+        </script>
+    </body>
+</html>
